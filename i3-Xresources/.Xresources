@@ -1,6 +1,7 @@
 URxvt.font: xft:Monospace:size=14 
 URxvt.scrollBar: false 
 URxvt.geometry: 400x400 
+URxvt*bell: false
 
 ! special
 *.foreground:   #ffffff
