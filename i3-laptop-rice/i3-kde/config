@@ -192,9 +192,16 @@ bar {
 }
 
 # Custom keymaps with xmodmap 
-# exec --no-startup-id xmodmap ~/.Xmodmap 
+exec --no-startup-id xmodmap ~/.Xmodmap 
 
 for_window [class=".*"] border pixel 2 
+
+# Wallpaper
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/3.jpg
+
+# Gaps
+gaps inner 20
+gaps outer 10
 
 # KDE commands
 for_window [title="Desktop — Plasma"] kill, floating enable, border none
